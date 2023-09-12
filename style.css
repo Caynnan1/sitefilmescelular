@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+section{
+    height: 100vh;
+}
+.navtop{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.navtop img{
+    margin-right: 40px;
+    margin-left: 15px;
+    max-width: 25px;
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1b1b1bce;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 40px 40px 0 0;
+}
+.navbar img{
+    padding-left: 25px;
+    max-width: 40px;
+}
+.banner{
+    padding: 40vh 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://image.tmdb.org/t/p/w500/AqFS7VPOhUUZ0DiPvNPv0GfTAlj.jpg");
+}
+.filmestop{
+    background-color: black;
+}
+@keyframes bordaCores {
+    0%{
+        border-color: rgb(255, 0, 0);
+    }
+    25%{
+        border-color: rgb(0, 255, 0);
+    }
+    50%{
+        border-color: rgb(0, 0, 255);
+    }
+    75%{
+        border-color: rgb(255, 255, 0);
+    }
+    100%{
+        border-color: rgb(255, 0, 255);
+    }
+}
+.avatar{
+    animation: bordaCores 5s linear infinite;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.filmes img{
+    max-width: 140px;
+}
+
+.fis{
+    padding-left: 15px;
+}
